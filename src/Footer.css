@@ -1,0 +1,30 @@
+.footer {
+  background-color: #2e81f4;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer > p {
+  color: #fff;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+.footer > .footer__heart {
+  margin-left: 10px;
+  animation: crescendo 1.5s alternate infinite ease-in;
+}
+@keyframes crescendo {
+  0% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}

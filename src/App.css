@@ -1,0 +1,17 @@
+.app__body {
+  display: flex;
+}
+.app {
+  background-color: #f1f2f5;
+}
+@media (max-width: 667px) {
+  .app__body {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 668px) and (max-width: 1092px) {
+  .app__body {
+    flex-wrap: wrap;
+  }
+}

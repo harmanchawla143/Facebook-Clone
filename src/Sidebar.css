@@ -1,0 +1,16 @@
+.sidebar {
+  flex: 25%;
+  padding: 25px 10px;
+}
+@media (max-width: 667px) {
+  .sidebar {
+    padding: 15px 7px;
+    flex: 100%;
+  }
+}
+@media (min-width: 667px) and (max-width: 1092px) {
+  .sidebar {
+    padding: 20px 10px;
+    flex: 30%;
+  }
+}
